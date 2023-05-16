@@ -4,7 +4,7 @@ import { renderToString } from 'react-dom/server';
 const margin = 20;
 const width = 100;
 const height = width * 0.87;
-const font = "sans"
+const font = "sans";
 
 const svg = () => (
 	<svg height={2 * margin + 4 * height} width={2 * margin + 4 * width} xmlns="http://www.w3.org/2000/svg">

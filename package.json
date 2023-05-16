@@ -6,7 +6,7 @@
   "main": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "mkdir -p js svg; babel jsx -d js; node js/upsideDown.js > svg/upside-down.svg"
+    "start": "mkdir -p js svg; babel jsx -d js; node js/upsideDown.js > svg/upside-down.svg; node js/rightSideUp.js > svg/right-side-up.svg"
   },
   "author": "Martin Rixham",
   "license": "GPL-3.0-or-later",
